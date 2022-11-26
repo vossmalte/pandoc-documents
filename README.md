@@ -19,3 +19,7 @@ Templates for documents written in markdown.
 ## Compiling
 
 Template commands for compilation can be found in [VS Code settings](.vscode/settings.json).
+
+Slides: `pandoc slides.md -t beamer -i -o slides.pdf`
+
+Essay: `pandoc essay.md --toc --template eisvogel -o essay.pdf`
